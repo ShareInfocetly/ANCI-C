@@ -3,7 +3,7 @@ int main()
 {
 
 printf("Welcome to Hacktoberfest 2022!\n\n");
-
+printf("Program to check if the number is palindrom");
 int number, number_reverse = 0, remainder, original_number;
 
 printf("Enter an Integer: ");
