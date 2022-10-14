@@ -16,15 +16,16 @@ break;
 }
 if (number == 1)
 {
-printf("1 is not a prime number.\n");
+printf("1 is not a prime number\n");
 }
 else
 {
 if (flag == 0)
-printf("%d is a prime number.\n", number);
+printf("%d is a prime number\n", number);
 else
-printf("%d is not a prime number.\n", number);
+printf("%d is not a prime number\n", number);
 }
+
 return 0;
 
  
