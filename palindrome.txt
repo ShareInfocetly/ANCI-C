@@ -15,7 +15,7 @@ original_number = number; // Storing the value of the number into a variable ori
 while( number!=0 )
 {
 remainder = number % 10;
-number_reverse = number_reverse / 10 + remainder; // Address an issue
+number_reverse = number_reverse * 10 + remainder; // Address an issue
 number /= 10;
 }
 // To check if the original number and the reversed number are equal or not
