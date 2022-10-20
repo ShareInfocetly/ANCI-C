@@ -23,8 +23,7 @@ number_reverse = number_reverse * 10 + remainder; // Address an issue
 
 remainder = number % 10;
 
-number_reverse = number_reverse *10 + remainder; // Address an is
-
+number_reverse = number_reverse * 10 + remainder; // Address an issue
 
 number /= 10;
 }
