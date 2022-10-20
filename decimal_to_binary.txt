@@ -24,5 +24,5 @@ int decimal_number;
 printf("Enter a positive integer in decimal system: ");
 scanf("%d", &decimal_number);
 printf("The number %d in decimal system to binary is %ld\n", decimal_number, decimal_to_binary(decimal_number));
-return 0;
+return 0; //returning a value//
 }
