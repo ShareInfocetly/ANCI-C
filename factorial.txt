@@ -2,7 +2,7 @@
 int main()
 {
 
-printf("Welcome to Hacktoberfest 2022!\n\n");
+printf("Welcome to Hacktoberfest 2022!\n\n");//HELLO WORLD
 
 int number, iteration;
 long factorial = 1; // initializing factorial to 1
