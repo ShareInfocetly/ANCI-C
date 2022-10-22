@@ -16,7 +16,7 @@ break;
 }
 if (number == 1)
 {
-printf("1 is not a prime number.\n");
+printf("1 is NOT a prime number.\n");
 }
 else
 {
