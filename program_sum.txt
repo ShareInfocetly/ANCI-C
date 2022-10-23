@@ -10,5 +10,9 @@ int main() {
     // %.2lf displays number up to 2 decimal point
     printf("sum = %.2lf", sum);
     
+
     return 0;//Value is been return
+
+    return 0;//returning value zero
+
 }

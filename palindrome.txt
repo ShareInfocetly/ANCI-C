@@ -4,9 +4,12 @@ int main()
 
 printf("Welcome to Hacktoberfest 2022!\n\n");
 
-int number, number_reverse = 0, remainder, original_number;
 
-printf("Enter an integer: ");
+int number, number_reverse = 0, remainder, original_number
+printf("Program to check if the number is palindrom");
+
+
+printf("Enter an Integer: ");
 scanf("%d", &number);
 
 original_number = number; // Storing the value of the number into a variable original_number
@@ -14,14 +17,23 @@ original_number = number; // Storing the value of the number into a variable ori
 /* Reversing the number */
 while( number!=0 )
 {
-remainder = number % 10;
+
+remainder = number % 10
 number_reverse = number_reverse * 10 + remainder; // Address an issue
+
+remainder = number % 10;
+
+number_reverse = number_reverse*10 + remainder; // Address an issue
+
 number /= 10;
 }
 // To check if the original number and the reversed number are equal or not
 if (original_number == number_reverse)
+{
 printf("%d is a palindrome.\n", original_number);
 else
 printf("%d is not a palindrome.\n", original_number);
 return 0;
+
+
 }

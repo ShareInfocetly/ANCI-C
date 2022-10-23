@@ -1,11 +1,18 @@
-#include <stdio.h>
+#include stdio.h>
 int main()
 {
+
 printf("Welcome to Hacktoberfest 2022!\n\n");//Introduction
 int number, iteration;
 int flag = 0; // Initialize
 printf("Enter a positive number to check if it is prime or not ");
 scanf("%d", &number);//To Enter the Number
+
+printf("Welcome to Hacktoberfest 2022 !\n\n");
+int number, iteration;
+int flag = 0; // Initialize
+printf("Enter a positive number to check if it is prime or not ")
+scanf("%d", &number);
 for(iteration = 2; iteration <= number/2; iteration++)
 {
 if(number%iteration == 0) // Condition for a non-prime number
@@ -16,6 +23,7 @@ break;
 }
 if (number == 1)
 {
+
 printf("1 is not a prime number.\n");//Condition where Number 1 is not a prime number
 }
 else
@@ -27,3 +35,27 @@ printf("%d is not a prime number.\n", number);//%d displays the number if it is 
 }
 return 0;//To end the program
 }
+printf("1 is NOT a prime number.\n");
+
+printf("1 is not a prime number\n");
+
+}
+else
+{
+if (flag == 0)
+printf("%d is a prime number\n", number);
+else
+printf("%d is not a prime number\n", number);
+
+
+
+return 0;
+
+}
+
+
+
+
+}
+
+
