@@ -1,14 +1,18 @@
 #include <stdio.h>
 int main() {
-    double a, b, sum;
+    double a, b, sum;//Variable used to get the sum of the decimal or integer numbers
     printf("Enter two numbers: ");
     scanf("%lf %lf", &a, &b);  
  
     // Calculating product
-    sum = a + b;
+    sum = a + b;//To Sum up the Two Number Entered Above
 
     // %.2lf displays number up to 2 decimal point
     printf("sum = %.2lf", sum);
     
+
+    return 0;//Value is been return
+
     return 0;//returning value zero
+
 }
