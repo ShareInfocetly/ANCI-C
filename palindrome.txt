@@ -2,7 +2,7 @@
 int main()
 {
 
-printf("Welcome to Hacktoberfest 2022!\n\n");
+printf("Welcome to Hacktoberfest Event 2022!\n\n");
 
 
 int number, number_reverse = 0, remainder, original_number
@@ -18,11 +18,11 @@ original_number = number; // Storing the value of the number into a variable ori
 while( number!=0 )//while condition initialized
 {
 remainder = number % 10
-number_reverse = number_reverse * 10 + remainder; // Address an issue
+number_reverse = number_reverse * 10 + remainder; // Addressed an issue
 
 remainder = number % 10;
 
-number_reverse = number_reverse*10 + remainder; // Address an issue
+number_reverse = number_reverse*10 + remainder; // Addressed an issue
 
 number /= 10;
 }
